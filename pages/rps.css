@@ -1,0 +1,24 @@
+* {
+  background-color: pink;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", "Times New Roman";
+}
+
+.header {
+  font-size: 75px;
+}
+
+.winnerBox {
+  display: flex;
+  font-size: 25px;
+}
+
+.resultBox {
+  display: flex;
+  font-size: 25px;
+}

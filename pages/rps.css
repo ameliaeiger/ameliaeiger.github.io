@@ -10,7 +10,10 @@
 }
 
 .header {
+  display: flex;
+  white-space: nowrap;
   font-size: 75px;
+  justify-content: center;
 }
 
 .winnerBox {

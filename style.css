@@ -1,18 +1,34 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #373E98;
   color: white;
   font-family: optima;
+  margin: 0px;
+  padding: 0px;
 }
+
 
 ul {
   display: flex;
   justify-content: space-evenly;
+  background-color: #1a1f66;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
   display: flex;
+
 }
 
 button {
-  background-color: white;
+  display: flex;
+  border-style: none;
+  background-color: #1a1f66;
+  font-family: optima;
+  font-size: 20px;
+  color: white;
+  padding: 45px;
+
 }

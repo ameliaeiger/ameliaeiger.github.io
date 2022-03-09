@@ -11,15 +11,22 @@ body {
 
 ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   background-color: #1a1f66;
   margin: 0px;
   padding: 0px;
+  border-bottom-style: solid;
 }
+
 
 li {
   display: flex;
 
+}
+
+.menubutton {
+  display: flex;
 }
 
 button {
@@ -27,8 +34,54 @@ button {
   border-style: none;
   background-color: #1a1f66;
   font-family: optima;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-  padding: 45px;
+  padding: 35px;
+  transition-duration: .4s;
 
+}
+
+button:hover {
+  background-color: #656bbf;
+
+}
+
+#contactme {
+  display: flex;
+  justify-content: flex-end;
+  color: #1a1f66;
+  background-color: #FEE36E;
+  border-radius: 25px;
+  padding: 20px;
+  margin-left: 600px;
+  margin-right: 50px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 50px;
+
+}
+
+.aboutmetext {
+  display: flex;
+  font-size: 20px;
+  margin: 25px;
+  margin-right: 50px;
+}
+
+
+#aboutmeimage {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
 }

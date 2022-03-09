@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Amelia's Homepage</title>
+  <title>Amelia's Portfolio</title>
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--BANNER-->
+<div class="bannercontainer">
+  <ul>
+    <li class="banner"><a href="index.html"><button id="home">Home</button></a></li>
+    <li class="banner"><a href="pages/portfolio/index.html"><button id="portfolio">Portfolio</button></a></li>
+  </ul>
+</div>
+  <h1>Hi! I'm Amelia</h1>
+  <h2>About Me</h2>
+  <p>Hi there! I'm Amelia, a current front-end student at Turing School. I have skills in html, CSS, and JavaScript.
+    I love designing inviting and intuitive webpages.
+    Here, you can find some example projects that demonstrate my abilities with these skills.</p>
+
+  <script>
+
+//THE MOST BASIC FUNCTION
+
+function favoriteAnimal(animal) {
+  console.log(animal);
+}
+
+favoriteAnimal("Goat")
+
+//A LITTLE FUNCTION THAT CAPITALIZES THE FIRST LETTER OF A STRING AND RETURNS A NEW STRING
+
+
+function capitalizeThis(word) {
+      let firstLetter = word.charAt(0);
+      let upper = firstLetter.toUpperCase();
+      let substring = word.substring(1);
+      let newWord = upper + substring;
+      console.log(newWord)
+    }
+
+    capitalizeThis("poop")
+    capitalizeThis("doodoo")
+    capitalizeThis("feces")
+
+
+
+
+  //console.log(firstLetter)
+  //console.log(firstLetterUpper)
+//  capitalize("poop")
+  </script>
+
+
+
+<!--CREATE INPUT FORM FOR TEXT -->
+  <form action="/action_page.php">
+<input type="text" name="username"></form>
+
+<!--CREATE INPUT FORM FOR BUTTONS -->
+<form action="/action_page.php">
+<button>Click Me</button></form>
+
+
 </body>
 </html>

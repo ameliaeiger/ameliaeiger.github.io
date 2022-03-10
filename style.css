@@ -1,8 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #373E98;
-  color: white;
+  background-color: #D5F5E3;
+  color: #4e695a;
   font-family: optima;
   margin: 0px;
   padding: 0px;
@@ -13,7 +13,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1f66;
+  background-color: #4e695a;
   margin: 0px;
   padding: 0px;
   border-bottom-style: solid;
@@ -32,8 +32,9 @@ li {
 button {
   display: flex;
   border-style: none;
-  background-color: #1a1f66;
+  background-color: #4e695a;
   font-family: optima;
+  font-weight: bold;
   font-size: 25px;
   color: white;
   padding: 35px;
@@ -42,14 +43,15 @@ button {
 }
 
 button:hover {
-  background-color: #656bbf;
+  background-color: #c5e6d3;
+  color: #4e695a;
 
 }
 
 #contactme {
   display: flex;
   justify-content: flex-end;
-  color: #1a1f66;
+  color: #4e695a;
   background-color: #FEE36E;
   border-radius: 25px;
   padding: 20px;
@@ -60,25 +62,39 @@ button:hover {
 .aboutme {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   margin: 50px;
 
 }
 
+.welcome {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .aboutmetext {
   display: flex;
+  flex-direction: column;
+  align-content: space-between;
   font-size: 20px;
   margin: 25px;
   margin-right: 50px;
+  max-width: 500px;
+}
+
+.aboutmebio {
+  display: flex;
 }
 
 
 #aboutmeimage {
   display: flex;
   justify-content: flex-end;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 15px;
   margin: 25px;
 }
 

@@ -2,11 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #D5F5E3;
+  background-image: url("https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_WithoutZoom?$w400$&$src=WL171_PNK");
   color: #4e695a;
-  font-family: optima;
+  font-family: courier;
   margin: 0px;
   padding: 0px;
 }
+
 
 
 ul {
@@ -27,13 +29,14 @@ li {
 
 .menubutton {
   display: flex;
+  margin-left: 25px;
 }
 
 button {
   display: flex;
   border-style: none;
   background-color: #4e695a;
-  font-family: optima;
+  font-family: courier;
   font-weight: bold;
   font-size: 25px;
   color: white;
@@ -57,19 +60,29 @@ button:hover {
   padding: 20px;
   margin-left: 600px;
   margin-right: 50px;
+  text-decoration: none;
+}
+
+.aboutmecontainer {
+  display: flex;
+  justify-content: center;
 }
 
 .aboutme {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  align-items: center;
   margin: 50px;
+  background-color: white;
+  border-radius: 50px;
+  max-width: 1000px;
 
 }
 
 .welcome {
   display: flex;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
   margin-bottom: 15px;
 }

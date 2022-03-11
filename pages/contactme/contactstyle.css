@@ -148,7 +148,8 @@ button:hover {
 	align-items: center;
 	font-family: "altonaSans";
   font-size: 25px;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
   max-width: 800px;
 }
 

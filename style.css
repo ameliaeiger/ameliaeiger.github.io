@@ -1,7 +1,17 @@
+@font-face {
+	font-family: "lemonTea";
+	src: url("Better Grade.ttf");
+}
+
+@font-face {
+	font-family: "altonaSans";
+	src: url("Roboto-Thin.ttf")
+}
+
 body {
   display: flex;
   flex-direction: column;
-  background-color: #D5F5E3;
+  background-color: #4e695a;
   background-image: url("https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_WithoutZoom?$w400$&$src=WL171_PNK");
   color: #4e695a;
   font-family: courier;
@@ -16,7 +26,7 @@ body {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #4e695a;
   margin: 0px;
@@ -31,7 +41,7 @@ li {
 
 .menubutton {
   display: flex;
-  margin-left: 25px;
+  margin-left: 150px;
 }
 
 button {
@@ -47,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #c5e6d3;
+  background-color: #9cb8a8;
   color: #4e695a;
 
 }
@@ -77,47 +87,64 @@ button:hover {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 150px;
   background-color: white;
   border-radius: 50px;
-  width: 1200px;
+  width: 800px;
 
 }
 
 #welcome {
   display: flex;
-  font-size: 100px;
-  font-weight: bold;
-  margin-bottom: 10px;
+	align-self: center;
+	font-family: "lemonTea";
+  font-size: 270px;
+  margin-bottom: 70px;
+	margin-top: 50px;
 }
 
 #amelia {
   display: flex;
-  font-size: 50px;
   align-items: center;
 }
 
+#anAspiring {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#frontEndDeveloper {
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 
 .imameliatext {
   display: flex;
-  font-size: 50px;
-  margin-bottom: 15px;
+	justify-content: space-evenly;
+  margin-bottom: 30px;
   align-items: center;
+	width: 500px;
 }
 
 .aboutmetext {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-content: space-between;
-  font-size: 20px;
-  margin: 25px;
-  margin-right: 50px;
-  max-width: 1000px;
+	align-items: center;
+	font-family: "altonaSans";
+  font-size: 25px;
+  margin: 30px;
+  max-width: 800px;
 }
 
 .aboutmebio {
   display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: "altonaSans";
+  color: #4e695a;
 }
 
 
@@ -133,3 +160,6 @@ button:hover {
 a {
   text-decoration: none;
 }
+
+a:visited {
+  color: #4e695a;

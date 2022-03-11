@@ -80,20 +80,30 @@ button:hover {
   margin-top: 125px;
   background-color: white;
   border-radius: 50px;
-  width: 1000px;
+  width: 1200px;
 
 }
 
-.welcome {
+#welcome {
   display: flex;
   font-size: 100px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
+
+#amelia {
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+}
+
+
 
 .imameliatext {
   display: flex;
   font-size: 50px;
   margin-bottom: 15px;
+  align-items: center;
 }
 
 .aboutmetext {
@@ -103,7 +113,7 @@ button:hover {
   font-size: 20px;
   margin: 25px;
   margin-right: 50px;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .aboutmebio {

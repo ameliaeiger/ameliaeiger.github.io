@@ -1,0 +1,176 @@
+@font-face {
+	font-family: "lemonTea";
+	src: url("./BetterGrade.ttf");
+}
+
+@font-face {
+	font-family: "altonaSans";
+	src: url("JetBrainsMono-Thin.ttf")
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #4e695a;
+  background-image: url("https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_WithoutZoom?$w400$&$src=WL171_PNK");
+  color: #4e695a;
+  font-family: courier;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bannercontainer {
+  align-items: center;
+}
+
+
+.bannerbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e695a;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+li {
+  display: flex;
+
+}
+
+
+.menubutton {
+  display: flex;
+}
+
+button {
+  display: flex;
+  border-style: none;
+  background-color: #4e695a;
+  font-family: courier;
+  font-size: 15px;
+  color: white;
+	font-family: "altonaSans";
+  padding: 15px;
+  transition-duration: .4s;
+
+}
+
+button:hover {
+  background-color: #9cb8a8;
+  color: #4e695a;
+	cursor: pointer;
+
+}
+
+.biolink:hover {
+	background-color: #FEE36E;
+
+}
+
+#contactme {
+  display: flex;
+  justify-content: flex-end;
+  color: #4e695a;
+  background-color: #FEE36E;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 600px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.aboutmecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  border-radius: 50px;
+  width: 800px;
+	background-color: white;
+
+}
+
+#welcome {
+  display: flex;
+	flex-wrap: nowrap;
+	align-self: center;
+	font-family: "lemonTea";
+  font-size: 270px;
+  margin-bottom: 50px;
+	margin-top: 50px;
+
+}
+
+#amelia {
+  display: flex;
+  align-items: center;
+}
+
+#anAspiring {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#frontEndDeveloper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+.imameliatext {
+  display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+  align-items: center;
+	width: 700px;
+}
+
+.contactmetext {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-between;
+	align-items: center;
+	font-family: "altonaSans";
+  font-size: 25px;
+  margin: 30px;
+  max-width: 800px;
+}
+
+.aboutmebio {
+  display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: "altonaSans";
+  color: #4e695a;
+	width: 690px;
+}
+
+
+#aboutmeimage {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 250px;
+  height: auto;
+  border-radius: 15px;
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4e695a;
+}

@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: "altonaSans";
-	src: url("Roboto-Thin.ttf")
+	src: url("JetBrainsMono-Thin.ttf")
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 }
 
 
-ul {
+.bannerbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,8 +48,9 @@ button {
   border-style: none;
   background-color: #4e695a;
   font-family: courier;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
+	font-family: "altonaSans";
   padding: 15px;
   transition-duration: .4s;
 
@@ -87,19 +88,21 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-color: white;
   border-radius: 50px;
   width: 800px;
+	background-color: white;
 
 }
 
 #welcome {
   display: flex;
+	flex-wrap: nowrap;
 	align-self: center;
 	font-family: "lemonTea";
   font-size: 270px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 	margin-top: 50px;
+
 }
 
 #amelia {
@@ -120,10 +123,10 @@ button:hover {
 
 .imameliatext {
   display: flex;
-	justify-content: space-evenly;
-  margin-bottom: 30px;
+	justify-content: center;
+	margin-bottom: 10px;
   align-items: center;
-	width: 500px;
+	width: 700px;
 }
 
 .aboutmetext {
@@ -144,7 +147,7 @@ button:hover {
 	justify-content: center;
 	font-family: "altonaSans";
   color: #4e695a;
-	width: 700px;
+	width: 690px;
 }
 
 

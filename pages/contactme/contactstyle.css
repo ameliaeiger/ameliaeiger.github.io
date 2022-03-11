@@ -69,6 +69,9 @@ button:hover {
 
 }
 
+.mail:hover {
+  	background-color: #FEE36E;
+}
 #contactme {
   display: flex;
   justify-content: flex-end;
@@ -95,6 +98,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 150px;
   border-radius: 50px;
   width: 800px;
 	background-color: white;
@@ -169,6 +173,7 @@ button:hover {
 
 a {
   text-decoration: none;
+    color: #4e695a;
 }
 
 a:visited {

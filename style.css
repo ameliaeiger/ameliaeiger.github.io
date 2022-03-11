@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "lemonTea";
-	src: url("Better Grade.ttf");
+	src: url("./BetterGrade.ttf");
 }
 
 @font-face {
@@ -41,7 +41,6 @@ li {
 
 .menubutton {
   display: flex;
-  margin-left: 150px;
 }
 
 button {
@@ -145,6 +144,7 @@ button:hover {
 	justify-content: center;
 	font-family: "altonaSans";
   color: #4e695a;
+	width: 700px;
 }
 
 

@@ -84,6 +84,7 @@ button:hover {
   text-decoration: none;
 }
 
+
 .aboutmecontainer {
   display: flex;
   justify-content: center;
@@ -173,3 +174,4 @@ a {
 
 a:visited {
   color: #4e695a;
+}

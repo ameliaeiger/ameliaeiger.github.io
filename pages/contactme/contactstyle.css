@@ -171,6 +171,10 @@ button:hover {
   margin: 25px;
 }
 
+#contactme:visited {
+  color: #4e695a;
+}
+
 a {
   text-decoration: none;
     color: #4e695a;

@@ -1,3 +1,9 @@
+//OFFERS LINK TO REFRESH PAGE
+
+let linkText = "Wanna go again?";
+let after = linkText.link("https://ameliaeiger.github.io/pages/rps");
+document.getElementById("link").innerHTML = after;
+
 
 // WHAT I KIND OF THINK I HAVE TO DO
 // 1. Establish an array with the strings: 'rock', 'paper', 'scissors'

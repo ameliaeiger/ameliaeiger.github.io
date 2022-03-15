@@ -65,31 +65,40 @@ function selectWinner(computerSelection, goodHumanSelection) {
 }
 
 
-if (humanScore == 3) {
+if (humanScore == 3 && computerScore <= 2) {
   document.getElementById("winnerBox").innerHTML = "You WIN!";
   document.getElementById("button").innerHTML = "YOU WON";
 
 
+  //OFFERS LINK TO REFRESH PAGE
 
-} else {
-  let newValue = false;
-  console.log(newValue)
-  document.getElementById("scoreKeeper").innerHTML = score;
-  console.log(score);
+  let linkText = "Wanna go again?";
+  let after = linkText.link("https://ameliaeiger.github.io/pages/rps");
+  document.getElementById("link").innerHTML = after;
+
+}
+
+if (computerScore == 3 && humanScore <= 2) {
+  document.getElementById("winnerBox").innerHTML = "Computer WINS!";
+  document.getElementById("button").innerHTML = "COMPUTER WON";
+
+
+  //OFFERS LINK TO REFRESH PAGE
+
+  let linkText = "Wanna go again?";
+  let after = linkText.link("https://ameliaeiger.github.io/pages/rps");
+  document.getElementById("link").innerHTML = after;
 }
 
 
 
+
 }
 
 
 
 
-//OFFERS LINK TO REFRESH PAGE
 
-let linkText = "Wanna go again?";
-let after = linkText.link("https://ameliaeiger.github.io/pages/rps");
-document.getElementById("link").innerHTML = after;
 
 
 // WHAT I KIND OF THINK I HAVE TO DO

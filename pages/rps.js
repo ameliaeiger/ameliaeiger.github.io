@@ -1,3 +1,8 @@
+
+function reset() {
+  document.getElementById("myText").value ="";
+}
+
 let humanScore = 0;
 let computerScore = 0;
 
@@ -89,13 +94,7 @@ if (computerScore == 3 && humanScore <= 2) {
   let after = linkText.link("https://ameliaeiger.github.io/pages/rps");
   document.getElementById("link").innerHTML = after;
 }
-
-
-
-
 }
-
-
 
 
 
@@ -133,18 +132,3 @@ if (computerScore == 3 && humanScore <= 2) {
 //function grabbingInput() {
 //  return prompt(greeting);
 //}
-
-
-
-
-
-
-
-
-//***EXPERIMENT***
-function tallyScore() {
-  let score = 0;
-  document.getElementById("scoreKeeper").innerHTML =score;
-
-
-}

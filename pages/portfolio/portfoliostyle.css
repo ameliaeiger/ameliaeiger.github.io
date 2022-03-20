@@ -97,8 +97,9 @@ button:hover {
   align-items: center;
   margin-top: 150px;
 	margin-bottom: 150px;
+	padding-bottom: 50px;
   border-radius: 50px;
-  width: 800px;
+  width: 1000px;
 	background-color: white;
 
 }
@@ -148,6 +149,7 @@ button:hover {
   font-size: 25px;
   margin: 30px;
   max-width: 800px;
+	padding-top: 50px;
 }
 
 .aboutmebio {

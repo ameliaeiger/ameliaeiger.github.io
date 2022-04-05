@@ -170,11 +170,19 @@ button:hover {
   border-radius: 15px;
   margin: 25px;
 }
-
 a {
   text-decoration: none;
+	color: #4e695a;
+
+}
+
+a:link {
+  text-decoration: none;
+	color: #4e695a;
+
 }
 
 a:visited {
+	text-decoration: none;
   color: #4e695a;
 }

@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "lemonTea";
-	src: url("./BetterGrade.ttf");
+	src: url("./CottonCloud.ttf");
 }
 
 @font-face {
@@ -99,7 +99,7 @@ button:hover {
 	padding-bottom: 50px;
 	margin-bottom: 150px;
   border-radius: 50px;
-  width: 1000px;
+  width: 800px;
 	background-color: white;
 
 }

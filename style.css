@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "lemonTea";
-	src: url("./BetterGrade.ttf");
+	src: url("./assets/BetterGrade.ttf");
 }
 
 @font-face {
 	font-family: "altonaSans";
-	src: url("JetBrainsMono-Thin.ttf")
+	src: url("./assets/JetBrainsMono-Thin.ttf")
 }
 
 body {

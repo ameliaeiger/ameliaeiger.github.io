@@ -1,30 +1,59 @@
 @font-face {
-	font-family: "lemonTea";
+	font-family: "better-grade";
 	src: url("./BetterGrade.ttf");
 }
 
 @font-face {
-	font-family: "altonaSans";
+	font-family: "jet-brains";
 	src: url("JetBrainsMono-Thin.ttf")
 }
 
 body {
   display: flex;
   flex-direction: column;
-  background-color: #4e695a;
-  background-image: url("https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_WithoutZoom?$w400$&$src=WL171_PNK");
   color: #4e695a;
-  font-family: courier;
+  font-family: "jet-brains", courier;
   margin: 0px;
   padding: 0px;
+	background-color: #4e695a;
+	background-image: url("https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_WithoutZoom?$w400$&$src=WL171_PNK");
 }
 
-.bannercontainer {
+li {
+  display: flex;
+}
+
+button {
+  display: flex;
+  border-style: none;
+  background-color: #4e695a;
+  font-size: 15px;
+  color: white;
+	font-family: "jet-brains";
+  padding: 15px;
+  transition-duration: .4s;
+}
+
+button:hover {
+  background-color: #9cb8a8;
+  color: #4e695a;
+	cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4e695a;
+}
+
+/* BANNER */
+.banner-container {
   align-items: center;
 }
 
-
-.bannerbar {
+.banner-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,43 +62,11 @@ body {
   padding: 0px;
 }
 
-
-li {
-  display: flex;
-
-}
-
-
-.menubutton {
+.menu-button {
   display: flex;
 }
 
-button {
-  display: flex;
-  border-style: none;
-  background-color: #4e695a;
-  font-family: courier;
-  font-size: 15px;
-  color: white;
-	font-family: "altonaSans";
-  padding: 15px;
-  transition-duration: .4s;
-
-}
-
-button:hover {
-  background-color: #9cb8a8;
-  color: #4e695a;
-	cursor: pointer;
-
-}
-
-.biolink:hover {
-	background-color: #FEE36E;
-
-}
-
-#contactme {
+#contact-me {
   display: flex;
   justify-content: flex-end;
   color: #4e695a;
@@ -84,101 +81,58 @@ button:hover {
   text-decoration: none;
 }
 
+/* MAIN */
 
-.aboutmecontainer {
-  display: flex;
-  justify-content: center;
-}
-
-.aboutme {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  margin-top: 150px;
-	padding-bottom: 50px;
-	margin-bottom: 150px;
-  border-radius: 50px;
-  width: 800px;
-	background-color: white;
-
-}
-
-#welcome {
-  display: flex;
-	flex-wrap: nowrap;
-	align-self: center;
-	font-family: "lemonTea";
-  font-size: 270px;
-  margin-bottom: 50px;
-	margin-top: 50px;
-
-}
-
-#amelia {
-  display: flex;
-  align-items: center;
-}
-
-#anAspiring {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-#frontEndDeveloper {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-
-.imameliatext {
-  display: flex;
+.about-me-container,
+.about-me,
+.im-amelia-text,
+.about-me-bio {
+	display: flex;
 	justify-content: center;
+}
+
+.about-me {
+  flex-direction: row-reverse;
+  align-items: center;
+	width: 800px;
+	margin: 100px 0px;
+  border-radius: 50px;
+	background-color: white;
+}
+
+.im-amelia-text {
+	font-size: 25px;
 	margin-bottom: 10px;
   align-items: center;
 	width: 700px;
 }
 
-.aboutmetext {
+.about-me-text {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: space-between;
 	align-items: center;
-	font-family: "altonaSans";
-  font-size: 25px;
   margin: 30px;
   max-width: 800px;
-	padding-top: 50px;
 }
 
-.aboutmebio {
-  display: flex;
+.about-me-bio {
 	text-align: left;
-	justify-content: center;
-	font-family: "altonaSans";
-  color: #4e695a;
+	font-size: 20px;
 	width: 690px;
 }
 
+.highlighted {
+	background-color: #FEE36E;
+}
 
-#aboutmeimage {
+#about-me-header {
   display: flex;
-  justify-content: flex-end;
-  max-width: 250px;
-  height: auto;
-  border-radius: 15px;
-  margin: 25px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #4e695a;
-}
-
-#chorale {
-  color: black;
+	flex-wrap: nowrap;
+	align-self: center;
+	font-family: "better-grade";
+  font-size: 270px;
+  margin-bottom: 50px;
+	margin-top: 50px;
 }

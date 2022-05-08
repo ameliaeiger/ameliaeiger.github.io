@@ -54,7 +54,7 @@ a:visited {
 
 .banner-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 	margin: 0px;
 	padding: 0px;
@@ -63,17 +63,18 @@ a:visited {
 
 .menu-buttons {
   display: flex;
+	margin-left: 50px;
 }
 
 #contact-me {
   display: flex;
   justify-content: flex-end;
 	padding: 10px 20px 10px 15px;
-	margin-left: 600px;
 	margin-right: 50px;
 	border-radius: 15px;
   color: #4e695a;
   background-color: #FEE36E;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* MAIN */
@@ -89,9 +90,10 @@ a:visited {
   flex-direction: row-reverse;
   align-items: center;
 	width: 800px;
-	margin: 100px 0px;
+	margin-top: 100px;
   border-radius: 50px;
 	background-color: white;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .projects-main-text {
@@ -117,9 +119,24 @@ a:visited {
 	width: 690px;
 }
 
+.latest {
+	justify-content: center;
+}
+
 .highlighted,
 .portlink:hover {
 	background-color: #FEE36E;
+}
+
+#latest-image {
+	display: flex;
+	max-width: 450px;
+	margin-top: 25px;
+	transition-duration: .4s;
+}
+
+#latest-image:hover {
+	max-width: 600px;
 }
 
 #projects-header-text {

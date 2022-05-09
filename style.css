@@ -73,8 +73,8 @@ button:hover {
 
 a:link {
   text-decoration: none;
-	color: #4e695a;
 	transition-duration: .4s;
+	color: black;
 }
 
 a:visited {
@@ -308,6 +308,50 @@ a:hover {
 
 .footer-image.portfolio {
 	border-top: 10px solid #2b2b2b;
+}
+
+/*   CONTACT   */
+.banner-container.contact {
+	margin-bottom: 130px;
+	margin-top: 10px;
+}
+.contact-main-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact-me-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px;
+}
+
+.contact-me-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 25px;
+}
+
+.contact-header {
+	font-family: "roboto-bold";
+	font-size: 70px;
+	font-weight: none;
+	text-decoration: underline;
+	margin: 0px;
+}
+.sunflower-image-top {
+	width: 100%;
+	margin-bottom: 150px;
+	border-bottom: 10px solid #333435;
+}
+.sunflower-bottom-image {
+	width: 100%;
+	margin-top: 150px;
+	border-top: 10px solid #333435;
 }
 
 .hidden {

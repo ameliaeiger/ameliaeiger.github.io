@@ -1,19 +1,11 @@
-// window.onload = function(){myFunction()};
-//
-// function myFunction() {
-//   document.getElementById("welcome").innerHTML = "Hello there!"
-// }
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  if (document.documentElement.scrollTop > 300) {
+    document.getElementById("amelia-image").classList.remove("hidden")
+    document.getElementById("amelia-image").classList.add("slideFromLeft")
 
-
-//let changeColor = document.getElementById("welcome");
-
-// 👇️ Change text color on mouseover
-//changeColor.addEventListener("mouseover", function handleMouseOver() {
-//  changeColor.style.color = "red";
-//});
-
-// 👇️ Change text color back on mouseout
-//changeColor.addEventListener("mouseout", function handleMouseOut() {
-//  changeColor.style.color = "black";
-//});
+    document.getElementById("text-wrapper").classList.remove("hidden")
+    document.getElementById("text-wrapper").classList.add("slideFromRight")
+  }
+}

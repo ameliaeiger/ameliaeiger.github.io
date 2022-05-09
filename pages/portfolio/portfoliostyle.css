@@ -114,7 +114,8 @@ a:visited {
 }
 
 .port-link-container {
-	text-align: center;
+	display: flex;
+	justify-content: center;
   color: #4e695a;
 	width: 690px;
 }
@@ -128,15 +129,10 @@ a:visited {
 	background-color: #FEE36E;
 }
 
-#latest-image {
+#latest-gif {
 	display: flex;
-	max-width: 450px;
-	margin-top: 25px;
-	transition-duration: .4s;
-}
-
-#latest-image:hover {
-	max-width: 600px;
+	max-width: 500px;
+	margin-right: 0;
 }
 
 #projects-header-text {

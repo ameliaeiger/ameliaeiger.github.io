@@ -56,7 +56,7 @@ button {
   display: flex;
 	padding: 10px;
   border-style: none;
-  background-color: rgba(250, 251, 252, 0.1);
+  background-color: rgba(250, 251, 252, 0.5);
 	font-family: "roboto", courier;
 	font-weight: bold;
 	color: black;
@@ -206,6 +206,107 @@ a:hover {
 	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+/*  PORTFOLIO  */
+
+.portfolio-banner-wrapper {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 75px;
+	position: sticky;
+	top: 0;
+}
+
+.portfolio-text {
+	display: flex;
+	position: relative;
+	font-size: 20px;
+	top: 150px;
+	/* left: 0%; */
+	/* transform: translate(-50%, -50%); */
+}
+
+.big-text-wrapper {
+	display: flex;
+}
+
+.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 25px;
+	margin-left: 25px;
+}
+
+.projects-text {
+	display: flex;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+.portfolio-header {
+	font-family: "roboto-bold";
+	font-size: 50px;
+}
+
+/* .latest-gifs-container {
+	display: grid;
+	grid-template-rows: 300px 300px;
+	grid-template-columns: 400px 400px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+} */
+
+.slideshow {
+	display: flex;
+	flex-direction: column;
+}
+
+.show-next {
+	position: relative;
+}
+
+.latest-gifs-container {
+	display: flex;
+}
+
+.grid-item {
+	max-width: 400px;
+	height: 300px;
+}
+
+/* .grid-item.two {
+	display: none;
+} */
+
+.paused {
+	animation-play-state: paused;
+}
+
+.portfolio-image-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 15px;
+	padding: 25px;
+	text-shadow: 3px 3px 5px gray;
+	font-family: "roboto";
+	font-size: 100px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main-image.portfolio {
+	border-bottom: 10px solid #2b2b2b;
+}
+
+.footer-image.portfolio {
+	border-top: 10px solid #2b2b2b;
 }
 
 .hidden {

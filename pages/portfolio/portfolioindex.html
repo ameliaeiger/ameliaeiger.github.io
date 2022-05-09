@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Amelia's Portfolio</title>
+    <title>Amelia Eiger</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="portfoliostyle.css">
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <script type="text/javascript" src="portfolio.js"></script>
   </head>
   <body>
+    <div class="page-wrapper">
   <!--BANNER-->
-  <section class="banner-container">
-    <ul class="banner-bar">
-      <div class="menu-buttons">
-        <li class="banner"><a href="https://ameliaeiger.github.io/"><button>Home</button></a></li>
-        <li class="banner"><a href="https://ameliaeiger.github.io/pages/aboutme/aboutindex.html"><button>About</button></a></li>
-        <li class="banner"><a href="https://ameliaeiger.github.io/pages/portfolio/portfolioindex.html"><button>Portfolio</button></a></li>
-        <li class="banner"><a href="https://github.com/ameliaeiger"><button>GitHub</button></a></li>
-        <li class="banner"><a href="https://www.linkedin.com/in/ameliaeiger/"><button>LinkedIn</button></a></li>
+      <div class="portfolio-banner-wrapper">
+        <section class="banner-container">
+          <ul class="banner-bar">
+            <div class="menu-button">
+              <li class="banner"><a href="https://ameliaeiger.github.io/"><button>HOME</button></a></li>
+              <li class="banner"><a href="https://ameliaeiger.github.io/pages/aboutme/aboutindex.html"><button>ABOUT</button></a></li>
+              <li class="banner"><a href="https://ameliaeiger.github.io/pages/portfolio/portfolioindex.html"><button>PORTFOLIO</button></a></li>
+              <li class="banner"><a href="https://github.com/ameliaeiger"><button>GITHUB</button></a></li>
+              <li class="banner"><a href="https://www.linkedin.com/in/ameliaeiger/"><button>LINKEDIN</button></a></li>
+              <li class="banner"><a href="https://ameliaeiger.github.io/pages/contactme/contactindex.html"><button>CONTACT</a></button></li>
+            </div>
+          </ul>
+        </section>
       </div>
-        <li class="banner"><button id="contact-me"><a href="https://ameliaeiger.github.io/pages/contactme/contactindex.html">Contact Me</a></button></li>
-    </ul>
-  </section>
-  <!--MAIN-->
-    <main class="about-projects-container">
-      <section class="about-projects">
-        <div class="projects-text">
-          <div id ="projects-header-text">
-              Projects
-          </div>
-          <div class="projects-main-text">
-              What&nbsp;
-            <div class="highlighted">
-              I'm
+    <!--MAIN-->
+      <main class="about-me">
+        <div class="portfolio-image-text">
+          PROJECTS
+        </div>
+        <img class="main-image portfolio" src="../../assets/treetop.png">
+        <section class="bio">
+          <div class="big-text-wrapper">
+          <div class="portfolio-text hidden" id="portfolio-text">LATEST:<br>ADVENTURE TIME TIC-TAC-TOE</div>
+          <div class="text-wrapper hidden" id="text-wrapper">
+            <div class="welcome-text portfolio-header">
+                <div class="projects-text">PROJECTS</div>HERE'S WHAT I'M WORKING ON:
             </div>
-              &nbsp;working&nbsp;
-            <div class="highlighted">
-              on:
+          <section class="slideshow">
+            <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button> -->
+            <div class="latest-gifs-container">
+              <img class="grid-item one" src="https://i.imgur.com/ZgdLRwW.gif">
+              <img class="grid-item two hidden" src="https://i.imgur.com/L5nT02F.gif">
             </div>
-          </div>
-          <div class="port-link-container">
-            <ul class="portfolio-links">
-              <li class="portlink"><a href="https://ameliaeiger.github.io/tic-tac-toe/">>Adventure Time Tic-Tac-Toe<</a></li>
-              <li class="portlink"><a href="https://ameliaeiger.github.io/whats-for-dinner/">>What's for Dinner?<</a></li>
-              <li class="portlink"><a href="https://ameliaeiger.github.io/hang-in-there/">>Make a Motivational Poster<</a></li>
-              <li class="portlink"><a href="https://ameliaeiger.github.io/pages/rps">>Rock, Paper, Scissors<</a></li>
-              <li class="portlink"><a href="https://ameliaeiger.github.io/">>This Website<</a></li>
-            </ul>
+            <button class="w3-button w3-black w3-display-right show-next" onclick="plusDivs(1)">SHOW NEXT &#10095;</button>
+          </section>
+
+<!--    ABOVE     -->
           </div>
         </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    <!--  FOOTER  -->
+      <footer class="footer">
+        <img class="footer-image portfolio" src="../../assets/treebottom.png">
+      </footer>
+    </div>
   </body>
 </html>
